@@ -1,0 +1,335 @@
+#Question 1.Explain the key features of Python that make it a popular choice for programming
+
+# Answer:- there are following key feature of python that make it popular choice for programming.
+#        1.It is widely used in industry.
+#        2.It used in data industry.
+#        3.A lots of libraries. 
+#        4.versatility-It used in web devlopment,data analytics,automationeyc
+#        5.Huge of active community.
+#        6.Ease of learning.
+
+
+
+
+
+#Question 2.Describe the role of predefined keywords in Python and provide examples of how they are used in a program
+
+# Answer:- Those predefiend keywords that hold specific meaning and have specific purpose in python.
+#          there are some predefiend keywords with example.
+#          1.Float:- a value with decimal.example-2.0, 4.5, 6.8etc
+#          2.Integer:-example-2, 3, 4, 5etc.             
+#          3.String:-it is a sequence of charecter which repersent textual data example- "ram", "shyam", "ajay"etc.
+#          There are such more predefiend keywors in python which specific uses in conding and that kewords is:-
+
+#          False               class               from                or
+#          None                continue            global              pass
+#          True                def                 if                  raise
+#          and                 del                 import              return
+#          as                  elif                in                  try
+#          assert              else                is                  while
+#          async               except              lambda              with
+#          await               finally             nonlocal            yield
+#          break               for                 not                 
+
+
+
+
+
+
+
+# 3.Compare and contrast mutable and immutable objects in Python with examples
+#Answer:-Mutable object-those object and container which values and state can be changed after they creating is called mutable object.
+#        example-list, dictionaries, sets
+#       Immutable object-those object and container which values and state can not be changed after they creating is called immutable object.
+#        example-string, tuple, array
+
+
+
+
+
+
+#Question 4.Discuss the different types of operators in Python and provide examples of how they are used
+#Answer:-Python operators are special type of keywords/symbols that are use to perform operations on value or variable.
+#        Type of python operator.
+#      1.Arthmetic operator:-
+#        a.adittion(+):-it is used to add.  
+#          example:
+#code:-
+a = 3 #here we defiend a variable a which repersent 3
+b = 5 #here we defiend a variable b which repersent 5
+a + b # when we add a and b we get 8.
+8
+
+#         b.subtraction(-):-it is used to subtract.
+#           example:
+#code:-
+a = 5 #here we defiend a variable a which repersent 5
+b = 3 #here we defiend a variable b which repersent 3
+a - b # when we subtract a and b we get 2.
+2
+#          c.multiplication(*):-it is used to multiply.  
+#          example:
+##code:-
+a = 3 #here we defiend a variable a which repersent 3
+b = 5 #here we defiend a variable b which repersent 5
+a * b # when we multiply a and b we get 15.
+15
+#           d.division:-it is used to divide.  
+#          example:
+#code:-
+a = 4 #here we defiend a variable a which repersent 4
+b = 2 #here we defiend a variable b which repersent 2
+a/b # when we divided a and b we get 2.
+2 
+#           e.modulus operator
+#           f.exponantion operator
+#
+#        2.Comparison operator:-It used in python to compare any two values or variable.
+#          a.equal to(==):- it used in identify two values or variable are equal or not.
+#            example:
+#code:-  
+a = 45  #here we defiend a variable a which repersent 45
+b = 45  #here we defiend a variable a which also repersent 45
+a == b  #when we use equal to operaator we get true
+True
+
+a = "ram"
+b ="ram"
+a == b
+True
+
+
+#          b.not equal to(!=):- it used in identify two values or variable are not equal.
+#            example:
+#
+#code:-  
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+a != b  #when we use not equal to operaator we get true
+True
+
+a = 45  #here we defiend a variable a which repersent 45
+b = 45  #here we defiend a variable a which also repersent 45
+a != b  #when we use equal to operaator we get false
+False
+
+
+#          c.greater than(>):-this operator is used to find which value is greater. 
+#            example: 
+#code:-  
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+a > b  #when we use grater than operaator we get true
+True
+
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+b > a  #when we use grater than operaator we get false
+False 
+
+#          d.less than(<):-this operator is used to find which value is less than. 
+#            example: 
+#code:-  
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+b < a #when we use less than operaator we get true
+True
+
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+a < b #when we use less than operaator we get false
+False
+
+
+#          e.greater than or equal to(>=):-this operator is used to find which value is greater than or equal to. 
+#            example: 
+#code:-  
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+a >= b  #when we use greater than or equal to operaator we get true
+True
+
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+b >= a #when we use greater than or equal to operaator we get false
+False
+
+
+#          f.less than equal to(<=):-this operator is used to find which value is less than equal to. 
+#            example: 
+#code:-  
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+b <= a  #when we use less than equal to operaator we get true
+True
+
+a = 46  #here we defiend a variable a which repersent 46
+b = 45  #here we defiend a variable a which repersent 45
+a <= b #when we use less than equal to operaator we get false
+False
+ 
+
+#         3.Logical operater:- 
+#          a.logical and:          
+#            example:
+#code:
+True and True
+True   #we get true
+True and False
+False #we get false
+False and False
+False #we get false
+False and True
+False #we get false
+
+
+#         b.logical or:
+#           example:
+##code:
+True  or True
+True   #we get true
+True or False
+True #we get true
+False and False
+False #we get false
+False and True
+True #we get true
+
+#        c. logical not:
+#          example:
+#code
+not True
+False
+
+not False
+True 
+
+#         4. Assignment operators:-
+#          a.Assignment(=):
+#          b.addittion assignment(+=)
+#          c.subtraction assignment(-=)
+#          d.multiplication assignment(*=)
+#          e.division assignment(/=)
+
+
+#         5.Membership operators:- 
+#          a.in
+#          b.not in
+
+#         6.Identity operators
+#          a.is
+#           b.is not
+
+#         7.Bitwise operators
+#          a.bitwise and(&)
+#          b.bitwise or(|)
+#          c.bitwise not
+#          d.bitwise xor(^) 
+#          e.left shift(<<)
+#          f.right shfit(>>)
+
+
+
+
+
+
+#5.Explain the concept of type casting in Python with examples
+#Answer:-the process changing of data type of a value/object from one formate to another formate
+#       example:
+#code
+a = "2"
+type(a)
+str
+
+float(a)
+2.0
+
+int(a)
+2
+
+
+
+#Question6.How do conditional statements work in Python? Illustrate with examples
+#Answer:-conditional statement is a type of flow control. whenever we use any condition to write code then we use coditional statement.
+#       it helps you to code decision based on some precondition.
+#       there are some type of conditional statement 
+#        .if
+#        .if- else
+#        .if- elif-else 
+#        .nested if
+#   example of if:
+#code
+a = 3
+b = 5
+if a < b:
+    print(a)
+3
+
+#   example of if- else:
+#code
+a = 3
+b = 5
+if a < b:
+    print(a)
+else:
+    print("a is grater than b")
+3
+
+#    example of if- elif- else:
+#code
+score = 80
+if score >= 90:
+    print("grade a")
+elif (80<=score<90):
+    print("grade b")
+elif (70<=score<80):
+    print("grade c")
+else:
+    print("grade d")
+    
+#     example of nested if :
+#code
+num = 4
+if num % 2 == 0:
+    if num > 0:
+        print("num is even and greater than 0")
+else:
+    print("num is odd")
+    
+#num is even and greater than
+
+
+#Question7. Describe the different types of loops in Python and their use cases with examples.
+#Answer:-there are two types of loop.
+#        .for loop
+#        .while loop
+#        
+#       while loop>> it allows to repeadaly execute a block of code untill a condition is met.
+#       example:
+#code
+n = 7
+i = 1
+while i < n:
+    print(i)
+    i = i + 1
+1
+2
+3
+4
+5
+6
+#         for loop>>iterate over a sequence of elements.
+#         example:
+a = "pwskill"
+for i in a:
+    print(i)
+
+
+
+
+
+
+
+
+
+
